@@ -6,7 +6,6 @@ import Footer from "@/components/Footer";
 const Pricing = () => {
   return (
     <div>
-      <Header />
       <div className="flex flex-col items-center my-10 w-[100vw]">
         <div className="bg-[rgb(87,60,255)] rounded-full px-4 py-[3px] mb-[3px] inline-block  ">
           <span className="text-[16px] font-[500] text-white ">Pricing</span>
@@ -27,8 +26,6 @@ const Pricing = () => {
           Contact Sales
         </button>
       </div>
-
-      <Footer />
     </div>
   );
 };

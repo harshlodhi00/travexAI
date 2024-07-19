@@ -6,12 +6,10 @@ import YoutubeEmbed from "@/components/HeroPage/YoutubeEmbed";
 
 export default function Home() {
   return (
-    <div className="w-[100vw] h-[100vh]">
-      <Header />
+    <div className="w-[100vw]">
       <HeroSection />
       <YoutubeEmbed />
       <Roi />
-      <Footer />
     </div>
   );
 }
