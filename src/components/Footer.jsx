@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="flex flex-row items-start justify-between ">
         <div className="w-[30%] flex flex-col items-start justify-start ">
           <div className="flex flex-row items-center justify-center">
-            <Image width={30} src={smallLogo} />
+            <Image alt="logo" width={30} src={smallLogo} />
             <span className="ml-4 font-[500] text-[22px] ">TravexAI</span>
           </div>
 

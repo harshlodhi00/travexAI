@@ -9,7 +9,7 @@ export default function Header() {
       <div className=" fixed top-0 px-8 py-5 w-[100%] backdrop-blur-lg opacaity-100 bg-transparent shadow-lg ">
         <div className="flex flex-row items-center justify-between ">
           <Link href={"/"}>
-            <Image width={150} src={logo} />
+            <Image alt="logo" width={150} src={logo} />
           </Link>
 
           <div className="flex flex-row items-start justify-between w-[30%] text-white ">
