@@ -18,10 +18,11 @@ const Pricing = () => {
       <PricingCard />
 
       <div className="flex flex-row items-center justify-center  py-10 mt-5  ">
-        <div className="mx-4 text-[18px] font-[500] ">
+        <div className="mx-4 text-[18px] font-[500]">
           Looking for an unlimited use, managed services, or a customized plan?
-          Let's talk!
+          Let&apos;s talk!
         </div>
+
         <button className="border-white bg-[rgb(87,60,255)] border-2 text-white hover:bg-[white] hover:border-[rgb(87,60,255)]  hover:text-[rgb(87,60,255)]  rounded-[12px] font-[500] active:bg-[rgb(87,60,255)]  active:text-white  px-4 py-2">
           Contact Sales
         </button>
